@@ -157,14 +157,64 @@ header{
 .active a{
   color: #E7A61A !important;
 }
-
-
-
-
-
-
-
-
+footer {
+    background: #636363;
+    color: #fff;
+}
+.top-footer{
+  padding: 40px ;
+}
+footer h4{
+  font-weight: bold;
+  text-align: center;
+}
+footer p{
+  text-align: center;
+}
+.title-widget-bottom {
+    width: 40px;
+    border-top: 3px solid;
+    margin: 0 auto 30px;
+}
+.copyright {
+    padding: 18px 0 10px;
+    background: rgba(0,0,0,0.45);
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+/*hide mobile menu on biger screen */
+.mobile-menu{
+  display: none;
+}
+/*responsive*/
+@media screen and (max-width:767px){
+  .logo img{
+    width: 60%;
+  }
+  .main-nav{
+    display: none;
+  }
+  .glyphicon.glyphicon-menu-hamburger {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 12px;
+    text-align: center;
+}
+.mobile-menu{
+  text-align: center;
+  display: inline;
+}
+.mobile-menu-items{
+    display: none;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    background: #fff;
+    color: #000;
+}
+}
 
 
 
